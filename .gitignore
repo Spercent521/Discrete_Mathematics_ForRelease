@@ -1,0 +1,43 @@
+# my information and solutions
+Homework/my_solution
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.xdv
+
+# BibTeX files
+*.bib.bak
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
