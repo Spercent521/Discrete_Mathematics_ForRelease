@@ -96,7 +96,7 @@
     2. 已知$\langle b,a\rangle\in R$且$\langle a,c\rangle\in R$，因$R$传递，故$\langle b,c\rangle\in R$（传递性定义）
   - 充分性（条件成立$\implies R$是等价关系）：
     1. 证对称：$\forall\langle a,b\rangle\in R$，因$R$自反，$\langle a,a\rangle\in R$（自反性定义）
-    2. 由条件，$\langle a,b\rangle\in R\land\langle a,a\rangle\in R\implies\langle b,a\rangle\in R$，故$R$对称（对称性定义）
+    2. 由条件，$\langle a,b\rangle\in R\land\langle a,a\rangle\in R\implies\langle b,a\rangle\in R$，[此处是利用“条件”]故$R$对称（对称性定义）
     3. 证传递：$\forall\langle a,b\rangle\in R,\langle b,c\rangle\in R$，由对称性$\langle b,a\rangle\in R$（已证$R$对称）
     4. 由条件，$\langle b,a\rangle\in R\land\langle b,c\rangle\in R\implies\langle a,c\rangle\in R$，故$R$传递（传递性定义）
     5. 已知$R$自反，故$R$是等价关系（等价关系定义）
