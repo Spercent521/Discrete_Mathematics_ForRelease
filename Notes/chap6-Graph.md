@@ -609,7 +609,7 @@ $$
 
 [pass]
 
-### 6. 4.7 Counting Paths Between Vertices
+### 6.4.7 Counting Paths Between Vertices
 
 >   [!IMPORTANT]
 >

@@ -317,7 +317,7 @@ $$
 >
 >   比如 **证明 $p \lor (q \land r)$ 和 $(p \lor q) \land (p \lor r)$ 是逻辑等价的**
 >
->   | $P$  | $q$  | $r$  | $q \land r$ | $p \lor (q \land r)$ | $p \lor q$ | $p \lor r$ | $(p \lor q) \land (p \lor r)$ |
+>   | $p$  | $q$  | $r$  | $q \land r$ | $p \lor (q \land r)$ | $p \lor q$ | $p \lor r$ | $(p \lor q) \land (p \lor r)$ |
 | :--: | :--: | :--: | :---------: | :------------------: | :--------: | :--------: | :---------------------------: |
 |  T   |  T   |  T   |      T      |          T           |     T      |     T      |               T               |
 |  T   |  T   |  F   |      F      |          T           |     T      |     T      |               T               |
@@ -771,12 +771,9 @@ $$
 3.   $$
      \forall x\,\Bigl(C(x)\vee \exists y\bigl(C(y)\wedge F(x,y)\bigr)\Bigr) , 其中 C(x) 是 x 有一台计算机，F(x,y) 是 x 和 y 是朋友 ，而 x 和 y 的共同论域是学校全体学生的集合。
      $$
-
-
      对学校中的每个学生 $x$,或者 $x$ 有一台计算机,或者另有一个学生 $y$,他有一台计算机,且 $x$ 和 $y$ 是朋友.
-    
-     换言之,学校的每个学生或者有一台计算机,或有一个有一台计算机的朋友.
-
+    换言之,学校的每个学生或者有一台计算机,或有一个有一台计算机的朋友.
+     
 4.   $$
      \exists x\,\forall y\,\forall z\,\Bigl(F(x,y)\wedge F(x,z)\wedge(y\ne z)\rightarrow \neg F(y,z)\Bigr) , 其中 F(a,b) 的含义是 a 和 b 是朋友，而 x,y,z 的论域是学校所有学生的集合。
      $$
