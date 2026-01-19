@@ -41,3 +41,6 @@ env/
 # Temporary files
 *.tmp
 *.temp
+
+# 临时打开的ppt/docx/xlsx文件
+~$*
